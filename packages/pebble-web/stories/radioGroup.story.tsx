@@ -2,7 +2,7 @@ import * as React from "react";
 import { storiesOf } from "@storybook/react";
 import { Radio, RadioGroup } from "../src";
 import { withState } from "@dump247/storybook-state";
-import { cx } from "emotion";
+
 import {
   setWrap,
   selectedButton,
@@ -45,25 +45,25 @@ storiesOf("Recipes/RadioGroup", module).add(
         store.set({ value });
       }}
       name="set of radios"
-      className={setWrap}
+      styles={setWrap}
     >
       <Radio
         value="OFF"
         label=""
-        className={cx({
-          [unSelectedButton]: true,
-          [selectedButton]: store.state.value === "OFF"
-        })}
+        styles={[
+          unSelectedButton,
+          store.state.value === "OFF" && selectedButton
+        ]}
       >
         {() => "OFF"}
       </Radio>
       <Radio
         value="ON"
         label=""
-        className={cx({
-          [unSelectedButton]: true,
-          [selectedButton]: store.state.value === "ON"
-        })}
+        styles={[
+          unSelectedButton,
+          store.state.value === "ON" && selectedButton
+        ]}
       >
         {() => "ON"}
       </Radio>
@@ -81,35 +81,26 @@ storiesOf("Recipes/RadioGroup", module).add(
         store.set({ value });
       }}
       name="set of radios"
-      className={setWrap}
+      styles={setWrap}
     >
       <Radio
         value="C"
         label=""
-        className={cx({
-          [unSelectedButton]: true,
-          [selectedButton]: store.state.value === "C"
-        })}
+        styles={[unSelectedButton, store.state.value === "C" && selectedButton]}
       >
         {() => "C"}
       </Radio>
       <Radio
         value="B"
         label=""
-        className={cx({
-          [unSelectedButton]: true,
-          [selectedButton]: store.state.value === "B"
-        })}
+        styles={[unSelectedButton, store.state.value === "B" && selectedButton]}
       >
         {() => "B"}
       </Radio>
       <Radio
         value="A"
         label=""
-        className={cx({
-          [unSelectedButton]: true,
-          [selectedButton]: store.state.value === "A"
-        })}
+        styles={[unSelectedButton, store.state.value === "A" && selectedButton]}
       >
         {() => "A"}
       </Radio>

@@ -2,7 +2,7 @@ import * as React from "react";
 import DropDown from "./DropDown";
 import Option from "./Option";
 import OptionGroupRadio from "./OptionGroupRadio";
-import { cx, css } from "emotion";
+import css from "@emotion/css";
 import {
   timePickerWrap,
   timePickerSelected,
@@ -53,29 +53,25 @@ const TimePicker: React.FunctionComponent<TimePickerProps> = props => {
   const selected = !!selectedHour || selectedMinute !== undefined;
 
   return (
-    <div
-      className={cx({
-        [timePickerWrap]: true,
-        [timePickerSelected]: selected
-      })}
-    >
+    <div css={[timePickerWrap, selected && timePickerSelected]}>
       <DropDown
-        labelClassName={hourPicker}
+        labelStyles={hourPicker}
         isSelected={selected}
         labelComponent={({ isOpen, toggleDropdown }) => (
           <div
             onClick={() => {
               toggleDropdown();
             }}
-            className={buttonStyle}
+            css={buttonStyle}
             data-test-id="hour-label"
           >
-            <span className={css({ marginRight: "15px" })}>
+            <span css={css({ marginRight: "15px" })}>
               {selectedHour ? selectedHour : "Hrs"}
             </span>
             <span>
               <i
-                className={cx("pi pi-arrow-drop-down", iconStyle)}
+                className="pi pi-arrow-drop-down"
+                css={iconStyle}
                 style={{ transform: isOpen ? "rotate(180deg)" : "none" }}
               />
             </span>
@@ -94,36 +90,37 @@ const TimePicker: React.FunctionComponent<TimePickerProps> = props => {
               toggle();
             }}
             selected={selectedHour}
-            className={optionStyle}
+            styles={optionStyle}
           >
             {HOURS.map(hour => (
               <Option
                 key={hour}
                 value={parseInt(hour, 10)}
                 label={hour}
-                className={optionStyle}
+                styles={optionStyle}
               />
             ))}
           </OptionGroupRadio>
         )}
       </DropDown>
-      <span className={seperator}>:</span>
+      <span css={seperator}>:</span>
       <DropDown
-        labelClassName={minutePicker}
+        labelStyles={minutePicker}
         isSelected={selected}
         labelComponent={({ isOpen, toggleDropdown }) => (
           <div
             onClick={() => {
               toggleDropdown();
             }}
-            className={buttonStyle}
+            css={buttonStyle}
             data-test-id="minute-label"
           >
-            <span className={css({ marginRight: "15px" })}>
+            <span css={css({ marginRight: "15px" })}>
               {selectedMinute !== undefined ? selectedMinute : "mins"}
             </span>
             <i
-              className={cx("pi pi-arrow-drop-down", iconStyle)}
+              className="pi pi-arrow-drop-down"
+              css={iconStyle}
               style={{ transform: isOpen ? "rotate(180deg)" : "none" }}
             />
           </div>
@@ -141,14 +138,14 @@ const TimePicker: React.FunctionComponent<TimePickerProps> = props => {
               toggle();
             }}
             selected={selectedMinute}
-            className={optionStyle}
+            styles={optionStyle}
           >
             {MINUTES.map(min => (
               <Option
                 key={min}
                 value={parseInt(min, 10)}
                 label={min}
-                className={optionStyle}
+                styles={optionStyle}
               />
             ))}
           </OptionGroupRadio>

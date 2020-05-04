@@ -1,44 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Component: Select multi-select: snapshot 1`] = `
-.emotion-2 {
-  height: 2px;
-  background-color: #6161FF;
-  margin-top: -2px;
-  position: relative;
-  width: 0;
-  -webkit-transition: all 0.3s cubic-bezier(.64,.09,.08,1);
-  transition: all 0.3s cubic-bezier(.64,.09,.08,1);
-  z-index: 9;
-}
-
-.emotion-2._pebble_input_highlight_state,
-.emotion-2._pebble_input_highlight_focused {
-  width: 100%;
-}
-
-.emotion-1 {
-  color: #9FA6B0;
-  font-size: 14px;
-  line-height: 12px;
-  position: absolute;
-  -webkit-transition: all 0.3s cubic-bezier(.64,.09,.08,1);
-  transition: all 0.3s cubic-bezier(.64,.09,.08,1);
-  -webkit-transform: translate(0,24px);
-  -ms-transform: translate(0,24px);
-  transform: translate(0,24px);
-  pointer-events: none;
-}
-
-.emotion-1._pebble_input_label_focused {
-  font-size: 12px;
-  line-height: 10px;
-  -webkit-transform: translate(0,0);
-  -ms-transform: translate(0,0);
-  transform: translate(0,0);
-  color: #6B7785;
-}
-
 .emotion-7 {
   margin-bottom: 20px;
 }
@@ -52,21 +14,25 @@ exports[`Component: Select multi-select: snapshot 1`] = `
   position: relative;
 }
 
-.emotion-4 {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  height: 10px;
-  right: 7px;
-  color: #9FA6B0;
-  font-size: 10px;
+.emotion-3 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ffffff;
+  width: 100%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: 20px;
+  height: 68px;
+  pointer-events: none;
+  margin-bottom: 0;
 }
 
-.emotion-4.__pebble__select__open {
-  -webkit-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  transform: rotate(180deg);
+.emotion-3._pebble_input_wrapper_textarea {
+  height: 110px;
 }
 
 .emotion-0 {
@@ -124,25 +90,59 @@ exports[`Component: Select multi-select: snapshot 1`] = `
   color: #E0E0E0;
 }
 
-.emotion-3 {
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  background-color: #ffffff;
-  width: 100%;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  margin-bottom: 20px;
-  height: 68px;
+.emotion-1 {
+  color: #9FA6B0;
+  font-size: 14px;
+  line-height: 12px;
+  position: absolute;
+  -webkit-transition: all 0.3s cubic-bezier(.64,.09,.08,1);
+  transition: all 0.3s cubic-bezier(.64,.09,.08,1);
+  -webkit-transform: translate(0,24px);
+  -ms-transform: translate(0,24px);
+  transform: translate(0,24px);
   pointer-events: none;
-  margin-bottom: 0;
 }
 
-.emotion-3._pebble_input_wrapper_textarea {
-  height: 110px;
+.emotion-1._pebble_input_label_focused {
+  font-size: 12px;
+  line-height: 10px;
+  -webkit-transform: translate(0,0);
+  -ms-transform: translate(0,0);
+  transform: translate(0,0);
+  color: #6B7785;
+}
+
+.emotion-2 {
+  height: 2px;
+  background-color: #6161FF;
+  margin-top: -2px;
+  position: relative;
+  width: 0;
+  -webkit-transition: all 0.3s cubic-bezier(.64,.09,.08,1);
+  transition: all 0.3s cubic-bezier(.64,.09,.08,1);
+  z-index: 9;
+}
+
+.emotion-2._pebble_input_highlight_state,
+.emotion-2._pebble_input_highlight_focused {
+  width: 100%;
+}
+
+.emotion-4 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 10px;
+  right: 7px;
+  color: #9FA6B0;
+  font-size: 10px;
+}
+
+.emotion-4.__pebble__select__open {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 <div
@@ -164,7 +164,7 @@ exports[`Component: Select multi-select: snapshot 1`] = `
         onClick={[Function]}
       >
         <div
-          className="emotion-3"
+          className=" emotion-3"
           onBlur={[Function]}
           onFocus={[Function]}
         >
@@ -176,12 +176,12 @@ exports[`Component: Select multi-select: snapshot 1`] = `
             value=""
           />
           <label
-            className="emotion-1"
+            className=" emotion-1"
           >
             Choose Option
           </label>
           <div
-            className="emotion-2 _pebble_input_highlight_read_only"
+            className="_pebble_input_highlight_read_only emotion-2"
             style={
               Object {
                 "backgroundColor": "#6161FF",
@@ -191,7 +191,7 @@ exports[`Component: Select multi-select: snapshot 1`] = `
           
         </div>
         <i
-          className="emotion-4 pi pi-arrow-drop-down"
+          className="pi pi-arrow-drop-down emotion-4"
         />
       </div>
     </div>
@@ -200,44 +200,6 @@ exports[`Component: Select multi-select: snapshot 1`] = `
 `;
 
 exports[`Component: Select single-select with searchbox: snapshot 1`] = `
-.emotion-2 {
-  height: 2px;
-  background-color: #6161FF;
-  margin-top: -2px;
-  position: relative;
-  width: 0;
-  -webkit-transition: all 0.3s cubic-bezier(.64,.09,.08,1);
-  transition: all 0.3s cubic-bezier(.64,.09,.08,1);
-  z-index: 9;
-}
-
-.emotion-2._pebble_input_highlight_state,
-.emotion-2._pebble_input_highlight_focused {
-  width: 100%;
-}
-
-.emotion-1 {
-  color: #9FA6B0;
-  font-size: 14px;
-  line-height: 12px;
-  position: absolute;
-  -webkit-transition: all 0.3s cubic-bezier(.64,.09,.08,1);
-  transition: all 0.3s cubic-bezier(.64,.09,.08,1);
-  -webkit-transform: translate(0,24px);
-  -ms-transform: translate(0,24px);
-  transform: translate(0,24px);
-  pointer-events: none;
-}
-
-.emotion-1._pebble_input_label_focused {
-  font-size: 12px;
-  line-height: 10px;
-  -webkit-transform: translate(0,0);
-  -ms-transform: translate(0,0);
-  transform: translate(0,0);
-  color: #6B7785;
-}
-
 .emotion-7 {
   margin-bottom: 20px;
 }
@@ -251,21 +213,25 @@ exports[`Component: Select single-select with searchbox: snapshot 1`] = `
   position: relative;
 }
 
-.emotion-4 {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  height: 10px;
-  right: 7px;
-  color: #9FA6B0;
-  font-size: 10px;
+.emotion-3 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ffffff;
+  width: 100%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: 20px;
+  height: 68px;
+  pointer-events: none;
+  margin-bottom: 0;
 }
 
-.emotion-4.__pebble__select__open {
-  -webkit-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  transform: rotate(180deg);
+.emotion-3._pebble_input_wrapper_textarea {
+  height: 110px;
 }
 
 .emotion-0 {
@@ -323,25 +289,59 @@ exports[`Component: Select single-select with searchbox: snapshot 1`] = `
   color: #E0E0E0;
 }
 
-.emotion-3 {
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  background-color: #ffffff;
-  width: 100%;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  margin-bottom: 20px;
-  height: 68px;
+.emotion-1 {
+  color: #9FA6B0;
+  font-size: 14px;
+  line-height: 12px;
+  position: absolute;
+  -webkit-transition: all 0.3s cubic-bezier(.64,.09,.08,1);
+  transition: all 0.3s cubic-bezier(.64,.09,.08,1);
+  -webkit-transform: translate(0,24px);
+  -ms-transform: translate(0,24px);
+  transform: translate(0,24px);
   pointer-events: none;
-  margin-bottom: 0;
 }
 
-.emotion-3._pebble_input_wrapper_textarea {
-  height: 110px;
+.emotion-1._pebble_input_label_focused {
+  font-size: 12px;
+  line-height: 10px;
+  -webkit-transform: translate(0,0);
+  -ms-transform: translate(0,0);
+  transform: translate(0,0);
+  color: #6B7785;
+}
+
+.emotion-2 {
+  height: 2px;
+  background-color: #6161FF;
+  margin-top: -2px;
+  position: relative;
+  width: 0;
+  -webkit-transition: all 0.3s cubic-bezier(.64,.09,.08,1);
+  transition: all 0.3s cubic-bezier(.64,.09,.08,1);
+  z-index: 9;
+}
+
+.emotion-2._pebble_input_highlight_state,
+.emotion-2._pebble_input_highlight_focused {
+  width: 100%;
+}
+
+.emotion-4 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 10px;
+  right: 7px;
+  color: #9FA6B0;
+  font-size: 10px;
+}
+
+.emotion-4.__pebble__select__open {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 <div
@@ -363,7 +363,7 @@ exports[`Component: Select single-select with searchbox: snapshot 1`] = `
         onClick={[Function]}
       >
         <div
-          className="emotion-3"
+          className=" emotion-3"
           onBlur={[Function]}
           onFocus={[Function]}
         >
@@ -375,12 +375,12 @@ exports[`Component: Select single-select with searchbox: snapshot 1`] = `
             value=""
           />
           <label
-            className="emotion-1"
+            className=" emotion-1"
           >
             Choose Option
           </label>
           <div
-            className="emotion-2 _pebble_input_highlight_read_only"
+            className="_pebble_input_highlight_read_only emotion-2"
             style={
               Object {
                 "backgroundColor": "#6161FF",
@@ -390,7 +390,7 @@ exports[`Component: Select single-select with searchbox: snapshot 1`] = `
           
         </div>
         <i
-          className="emotion-4 pi pi-arrow-drop-down"
+          className="pi pi-arrow-drop-down emotion-4"
         />
       </div>
     </div>
@@ -399,44 +399,6 @@ exports[`Component: Select single-select with searchbox: snapshot 1`] = `
 `;
 
 exports[`Component: Select single-select: snapshot 1`] = `
-.emotion-2 {
-  height: 2px;
-  background-color: #6161FF;
-  margin-top: -2px;
-  position: relative;
-  width: 0;
-  -webkit-transition: all 0.3s cubic-bezier(.64,.09,.08,1);
-  transition: all 0.3s cubic-bezier(.64,.09,.08,1);
-  z-index: 9;
-}
-
-.emotion-2._pebble_input_highlight_state,
-.emotion-2._pebble_input_highlight_focused {
-  width: 100%;
-}
-
-.emotion-1 {
-  color: #9FA6B0;
-  font-size: 14px;
-  line-height: 12px;
-  position: absolute;
-  -webkit-transition: all 0.3s cubic-bezier(.64,.09,.08,1);
-  transition: all 0.3s cubic-bezier(.64,.09,.08,1);
-  -webkit-transform: translate(0,24px);
-  -ms-transform: translate(0,24px);
-  transform: translate(0,24px);
-  pointer-events: none;
-}
-
-.emotion-1._pebble_input_label_focused {
-  font-size: 12px;
-  line-height: 10px;
-  -webkit-transform: translate(0,0);
-  -ms-transform: translate(0,0);
-  transform: translate(0,0);
-  color: #6B7785;
-}
-
 .emotion-7 {
   margin-bottom: 20px;
 }
@@ -450,21 +412,25 @@ exports[`Component: Select single-select: snapshot 1`] = `
   position: relative;
 }
 
-.emotion-4 {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  height: 10px;
-  right: 7px;
-  color: #9FA6B0;
-  font-size: 10px;
+.emotion-3 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ffffff;
+  width: 100%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: 20px;
+  height: 68px;
+  pointer-events: none;
+  margin-bottom: 0;
 }
 
-.emotion-4.__pebble__select__open {
-  -webkit-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  transform: rotate(180deg);
+.emotion-3._pebble_input_wrapper_textarea {
+  height: 110px;
 }
 
 .emotion-0 {
@@ -522,25 +488,59 @@ exports[`Component: Select single-select: snapshot 1`] = `
   color: #E0E0E0;
 }
 
-.emotion-3 {
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  background-color: #ffffff;
-  width: 100%;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  margin-bottom: 20px;
-  height: 68px;
+.emotion-1 {
+  color: #9FA6B0;
+  font-size: 14px;
+  line-height: 12px;
+  position: absolute;
+  -webkit-transition: all 0.3s cubic-bezier(.64,.09,.08,1);
+  transition: all 0.3s cubic-bezier(.64,.09,.08,1);
+  -webkit-transform: translate(0,24px);
+  -ms-transform: translate(0,24px);
+  transform: translate(0,24px);
   pointer-events: none;
-  margin-bottom: 0;
 }
 
-.emotion-3._pebble_input_wrapper_textarea {
-  height: 110px;
+.emotion-1._pebble_input_label_focused {
+  font-size: 12px;
+  line-height: 10px;
+  -webkit-transform: translate(0,0);
+  -ms-transform: translate(0,0);
+  transform: translate(0,0);
+  color: #6B7785;
+}
+
+.emotion-2 {
+  height: 2px;
+  background-color: #6161FF;
+  margin-top: -2px;
+  position: relative;
+  width: 0;
+  -webkit-transition: all 0.3s cubic-bezier(.64,.09,.08,1);
+  transition: all 0.3s cubic-bezier(.64,.09,.08,1);
+  z-index: 9;
+}
+
+.emotion-2._pebble_input_highlight_state,
+.emotion-2._pebble_input_highlight_focused {
+  width: 100%;
+}
+
+.emotion-4 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 10px;
+  right: 7px;
+  color: #9FA6B0;
+  font-size: 10px;
+}
+
+.emotion-4.__pebble__select__open {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 <div
@@ -562,7 +562,7 @@ exports[`Component: Select single-select: snapshot 1`] = `
         onClick={[Function]}
       >
         <div
-          className="emotion-3"
+          className=" emotion-3"
           onBlur={[Function]}
           onFocus={[Function]}
         >
@@ -574,12 +574,12 @@ exports[`Component: Select single-select: snapshot 1`] = `
             value=""
           />
           <label
-            className="emotion-1"
+            className=" emotion-1"
           >
             Choose Option
           </label>
           <div
-            className="emotion-2 _pebble_input_highlight_read_only"
+            className="_pebble_input_highlight_read_only emotion-2"
             style={
               Object {
                 "backgroundColor": "#6161FF",
@@ -589,7 +589,7 @@ exports[`Component: Select single-select: snapshot 1`] = `
           
         </div>
         <i
-          className="emotion-4 pi pi-arrow-drop-down"
+          className="pi pi-arrow-drop-down emotion-4"
         />
       </div>
     </div>

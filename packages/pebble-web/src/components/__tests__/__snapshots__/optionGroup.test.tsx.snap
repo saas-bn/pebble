@@ -1,15 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Component: OptionGroup default snapshot 1`] = `
-.emotion-0 {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
 .emotion-24 {
   background-color: #ffffff;
   border-radius: 3px;
@@ -73,16 +64,21 @@ exports[`Component: OptionGroup default snapshot 1`] = `
   cursor: not-allowed;
 }
 
-.emotion-1[data-disabled='true'] .css-qatnln {
-  color: #E0E0E0;
-}
-
 .emotion-1:last-of-type {
   border: 0;
 }
 
 .emotion-1:hover {
   background-color: #F7F7F9;
+}
+
+.emotion-0 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 <div
@@ -472,7 +468,21 @@ exports[`Component: OptionGroup default snapshot 1`] = `
 
 exports[`Component: OptionGroup multi option group 1`] = `
 Array [
-  .emotion-2 {
+  .emotion-3 {
+  padding: 20px;
+  box-shadow: none;
+  -webkit-transition: all 100ms linear;
+  transition: all 100ms linear;
+  z-index: 10;
+  will-change: padding;
+  position: absolute;
+  top: 0;
+  background: white;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.emotion-2 {
   min-width: 200px;
   border-radius: 3px;
   padding: 0 20px;
@@ -585,25 +595,11 @@ Array [
   pointer-events: unset;
 }
 
-.emotion-3 {
-  padding: 20px;
-  box-shadow: none;
-  -webkit-transition: all 100ms linear;
-  transition: all 100ms linear;
-  z-index: 10;
-  will-change: padding;
-  position: absolute;
-  top: 0;
-  background: white;
-  width: 100%;
-  box-sizing: border-box;
-}
-
 <div
     className="emotion-3"
   >
     <div
-      className="emotion-2 __pebble__search__small"
+      className="__pebble__search__small emotion-2"
     >
       <i
         className="pi pi-search"
@@ -619,7 +615,7 @@ Array [
         value=""
       />
       <div
-        className="emotion-1"
+        className=" emotion-1"
         onClick={[Function]}
       >
         <i
@@ -634,16 +630,7 @@ Array [
       </div>
     </div>
   </div>,
-  .emotion-0 {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.emotion-36 {
+  .emotion-36 {
   background-color: #ffffff;
   border-radius: 3px;
   position: relative;
@@ -706,16 +693,21 @@ Array [
   cursor: not-allowed;
 }
 
-.emotion-2[data-disabled='true'] .css-qatnln {
-  color: #E0E0E0;
-}
-
 .emotion-2:last-of-type {
   border: 0;
 }
 
 .emotion-2:hover {
   background-color: #F7F7F9;
+}
+
+.emotion-0 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .emotion-1 {
@@ -1149,7 +1141,21 @@ Array [
 
 exports[`Component: OptionGroup with searchbox 1`] = `
 Array [
-  .emotion-2 {
+  .emotion-3 {
+  padding: 20px;
+  box-shadow: none;
+  -webkit-transition: all 100ms linear;
+  transition: all 100ms linear;
+  z-index: 10;
+  will-change: padding;
+  position: absolute;
+  top: 0;
+  background: white;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.emotion-2 {
   min-width: 200px;
   border-radius: 3px;
   padding: 0 20px;
@@ -1262,25 +1268,11 @@ Array [
   pointer-events: unset;
 }
 
-.emotion-3 {
-  padding: 20px;
-  box-shadow: none;
-  -webkit-transition: all 100ms linear;
-  transition: all 100ms linear;
-  z-index: 10;
-  will-change: padding;
-  position: absolute;
-  top: 0;
-  background: white;
-  width: 100%;
-  box-sizing: border-box;
-}
-
 <div
     className="emotion-3"
   >
     <div
-      className="emotion-2 __pebble__search__small"
+      className="__pebble__search__small emotion-2"
     >
       <i
         className="pi pi-search"
@@ -1296,7 +1288,7 @@ Array [
         value=""
       />
       <div
-        className="emotion-1"
+        className=" emotion-1"
         onClick={[Function]}
       >
         <i
@@ -1311,16 +1303,7 @@ Array [
       </div>
     </div>
   </div>,
-  .emotion-0 {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.emotion-24 {
+  .emotion-24 {
   background-color: #ffffff;
   border-radius: 3px;
   position: relative;
@@ -1383,16 +1366,21 @@ Array [
   cursor: not-allowed;
 }
 
-.emotion-1[data-disabled='true'] .css-qatnln {
-  color: #E0E0E0;
-}
-
 .emotion-1:last-of-type {
   border: 0;
 }
 
 .emotion-1:hover {
   background-color: #F7F7F9;
+}
+
+.emotion-0 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 <div

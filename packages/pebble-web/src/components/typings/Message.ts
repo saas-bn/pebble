@@ -1,7 +1,8 @@
 import * as React from "react";
+import { Interpolation } from "./emotionCustom";
 
 export interface AlertProps {
   intent: "error" | "success";
-  className?: string;
+  styles?: Interpolation;
   text: React.ReactChild;
 }

@@ -3,7 +3,7 @@ import { PopperProps, PopperState } from "./typings/Popper";
 import { Manager, Reference, Popper } from "react-popper";
 import { arrowStyle, popperStyle } from "./styles/Popper.styles";
 import { colors } from "pebble-shared";
-import { cx } from "emotion";
+
 import OutsideClick from "./OutsideClick";
 import MountTransition from "./shared/MountTransition";
 
@@ -33,7 +33,7 @@ export default class PebblePopper extends React.PureComponent<
       children,
       controlled,
       isOpen,
-      popperClassName,
+      popperStyles,
       onOutsideClick,
       ...props
     } = this.props;
@@ -79,9 +79,8 @@ export default class PebblePopper extends React.PureComponent<
 
                   return (
                     <div
-                      className={cx(popperStyle, popperClassName)}
+                      css={[popperStyle, wrapperStyle]}
                       ref={ref}
-                      style={wrapperStyle}
                       data-placement={placement}
                     >
                       {children({
@@ -89,7 +88,7 @@ export default class PebblePopper extends React.PureComponent<
                         isOpen: this.state.isOpen
                       })}
                       <div
-                        className={arrowStyle}
+                        css={arrowStyle}
                         ref={arrowProps.ref}
                         style={{
                           ...arrowProps.style,

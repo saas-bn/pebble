@@ -1,9 +1,10 @@
 import * as React from "react";
+import { Interpolation } from "./emotionCustom";
 
 export interface CheckboxGroupProps<OptionType> {
   selected: OptionType[];
   onChange: (value: OptionType[], e: React.MouseEvent) => void;
-  className?: string;
+  styles?: Interpolation;
   name: string;
   disabled?: boolean;
 }

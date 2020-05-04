@@ -37,10 +37,6 @@ exports[`set of radios { value: 'OFF' } 1`] = `
   cursor: not-allowed;
 }
 
-.emotion-1[data-disabled='true'] .css-qatnln {
-  color: #E0E0E0;
-}
-
 .emotion-1:first-of-type {
   border-radius: 3px 0px 0px 3px;
 }
@@ -75,10 +71,6 @@ exports[`set of radios { value: 'OFF' } 1`] = `
 
 .emotion-0[data-disabled='true'] {
   cursor: not-allowed;
-}
-
-.emotion-0[data-disabled='true'] .css-qatnln {
-  color: #E0E0E0;
 }
 
 .emotion-0:first-of-type {
@@ -153,10 +145,6 @@ exports[`set of radios { value: 'ON' } 1`] = `
   cursor: not-allowed;
 }
 
-.emotion-0[data-disabled='true'] .css-qatnln {
-  color: #E0E0E0;
-}
-
 .emotion-0:first-of-type {
   border-radius: 3px 0px 0px 3px;
 }
@@ -191,10 +179,6 @@ exports[`set of radios { value: 'ON' } 1`] = `
 
 .emotion-1[data-disabled='true'] {
   cursor: not-allowed;
-}
-
-.emotion-1[data-disabled='true'] .css-qatnln {
-  color: #E0E0E0;
 }
 
 .emotion-1:first-of-type {

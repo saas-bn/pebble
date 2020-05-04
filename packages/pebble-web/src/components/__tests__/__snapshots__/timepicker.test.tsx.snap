@@ -1,35 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`TimePicker { selectedHour: 1, selectedMinute: 0 } 1`] = `
-.emotion-3 {
-  position: relative;
-}
-
-.emotion-4 {
-  color: #6B7785;
-  line-height: 40px;
-}
-
-.emotion-1 {
-  margin-left: 15px;
-  font-weight: bold;
-  font-size: 8px;
-  -webkit-transition: -webkit-transform ease-out .2s;
-  -webkit-transition: transform ease-out .2s;
-  transition: transform ease-out .2s;
-  will-transform: transform;
-  margin-top: 2px;
-  color: #6B7785;
-  display: inline-block;
-}
-
-.emotion-2 {
-  padding: 15px 20px;
-  font-size: 12px;
-  color: #101721;
-  line-height: 9px;
-}
-
 .emotion-9 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -49,8 +20,37 @@ exports[`TimePicker { selectedHour: 1, selectedMinute: 0 } 1`] = `
   background: #E0E0E0;
 }
 
+.emotion-3 {
+  position: relative;
+}
+
+.emotion-2 {
+  padding: 15px 20px;
+  font-size: 12px;
+  color: #101721;
+  line-height: 9px;
+}
+
 .emotion-0 {
   margin-right: 15px;
+}
+
+.emotion-1 {
+  margin-left: 15px;
+  font-weight: bold;
+  font-size: 8px;
+  -webkit-transition: -webkit-transform ease-out .2s;
+  -webkit-transition: transform ease-out .2s;
+  transition: transform ease-out .2s;
+  will-transform: transform;
+  margin-top: 2px;
+  color: #6B7785;
+  display: inline-block;
+}
+
+.emotion-4 {
+  color: #6B7785;
+  line-height: 40px;
 }
 
 <div
@@ -131,35 +131,6 @@ exports[`TimePicker { selectedHour: 1, selectedMinute: 0 } 1`] = `
 `;
 
 exports[`TimePicker { selectedHour: 1, selectedMinute: 15 } 1`] = `
-.emotion-3 {
-  position: relative;
-}
-
-.emotion-4 {
-  color: #6B7785;
-  line-height: 40px;
-}
-
-.emotion-1 {
-  margin-left: 15px;
-  font-weight: bold;
-  font-size: 8px;
-  -webkit-transition: -webkit-transform ease-out .2s;
-  -webkit-transition: transform ease-out .2s;
-  transition: transform ease-out .2s;
-  will-transform: transform;
-  margin-top: 2px;
-  color: #6B7785;
-  display: inline-block;
-}
-
-.emotion-2 {
-  padding: 15px 20px;
-  font-size: 12px;
-  color: #101721;
-  line-height: 9px;
-}
-
 .emotion-9 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -179,8 +150,37 @@ exports[`TimePicker { selectedHour: 1, selectedMinute: 15 } 1`] = `
   background: #E0E0E0;
 }
 
+.emotion-3 {
+  position: relative;
+}
+
+.emotion-2 {
+  padding: 15px 20px;
+  font-size: 12px;
+  color: #101721;
+  line-height: 9px;
+}
+
 .emotion-0 {
   margin-right: 15px;
+}
+
+.emotion-1 {
+  margin-left: 15px;
+  font-weight: bold;
+  font-size: 8px;
+  -webkit-transition: -webkit-transform ease-out .2s;
+  -webkit-transition: transform ease-out .2s;
+  transition: transform ease-out .2s;
+  will-transform: transform;
+  margin-top: 2px;
+  color: #6B7785;
+  display: inline-block;
+}
+
+.emotion-4 {
+  color: #6B7785;
+  line-height: 40px;
 }
 
 <div
@@ -261,35 +261,6 @@ exports[`TimePicker { selectedHour: 1, selectedMinute: 15 } 1`] = `
 `;
 
 exports[`TimePicker { selectedHour: 1, selectedMinute: undefined } 1`] = `
-.emotion-3 {
-  position: relative;
-}
-
-.emotion-4 {
-  color: #6B7785;
-  line-height: 40px;
-}
-
-.emotion-1 {
-  margin-left: 15px;
-  font-weight: bold;
-  font-size: 8px;
-  -webkit-transition: -webkit-transform ease-out .2s;
-  -webkit-transition: transform ease-out .2s;
-  transition: transform ease-out .2s;
-  will-transform: transform;
-  margin-top: 2px;
-  color: #6B7785;
-  display: inline-block;
-}
-
-.emotion-2 {
-  padding: 15px 20px;
-  font-size: 12px;
-  color: #101721;
-  line-height: 9px;
-}
-
 .emotion-9 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -309,8 +280,37 @@ exports[`TimePicker { selectedHour: 1, selectedMinute: undefined } 1`] = `
   background: #E0E0E0;
 }
 
+.emotion-3 {
+  position: relative;
+}
+
+.emotion-2 {
+  padding: 15px 20px;
+  font-size: 12px;
+  color: #101721;
+  line-height: 9px;
+}
+
 .emotion-0 {
   margin-right: 15px;
+}
+
+.emotion-1 {
+  margin-left: 15px;
+  font-weight: bold;
+  font-size: 8px;
+  -webkit-transition: -webkit-transform ease-out .2s;
+  -webkit-transition: transform ease-out .2s;
+  transition: transform ease-out .2s;
+  will-transform: transform;
+  margin-top: 2px;
+  color: #6B7785;
+  display: inline-block;
+}
+
+.emotion-4 {
+  color: #6B7785;
+  line-height: 40px;
 }
 
 <div
@@ -391,35 +391,6 @@ exports[`TimePicker { selectedHour: 1, selectedMinute: undefined } 1`] = `
 `;
 
 exports[`TimePicker { selectedHour: 12, selectedMinute: 0 } 1`] = `
-.emotion-3 {
-  position: relative;
-}
-
-.emotion-4 {
-  color: #6B7785;
-  line-height: 40px;
-}
-
-.emotion-1 {
-  margin-left: 15px;
-  font-weight: bold;
-  font-size: 8px;
-  -webkit-transition: -webkit-transform ease-out .2s;
-  -webkit-transition: transform ease-out .2s;
-  transition: transform ease-out .2s;
-  will-transform: transform;
-  margin-top: 2px;
-  color: #6B7785;
-  display: inline-block;
-}
-
-.emotion-2 {
-  padding: 15px 20px;
-  font-size: 12px;
-  color: #101721;
-  line-height: 9px;
-}
-
 .emotion-9 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -439,8 +410,37 @@ exports[`TimePicker { selectedHour: 12, selectedMinute: 0 } 1`] = `
   background: #E0E0E0;
 }
 
+.emotion-3 {
+  position: relative;
+}
+
+.emotion-2 {
+  padding: 15px 20px;
+  font-size: 12px;
+  color: #101721;
+  line-height: 9px;
+}
+
 .emotion-0 {
   margin-right: 15px;
+}
+
+.emotion-1 {
+  margin-left: 15px;
+  font-weight: bold;
+  font-size: 8px;
+  -webkit-transition: -webkit-transform ease-out .2s;
+  -webkit-transition: transform ease-out .2s;
+  transition: transform ease-out .2s;
+  will-transform: transform;
+  margin-top: 2px;
+  color: #6B7785;
+  display: inline-block;
+}
+
+.emotion-4 {
+  color: #6B7785;
+  line-height: 40px;
 }
 
 <div
@@ -521,35 +521,6 @@ exports[`TimePicker { selectedHour: 12, selectedMinute: 0 } 1`] = `
 `;
 
 exports[`TimePicker { selectedHour: 12, selectedMinute: 15 } 1`] = `
-.emotion-3 {
-  position: relative;
-}
-
-.emotion-4 {
-  color: #6B7785;
-  line-height: 40px;
-}
-
-.emotion-1 {
-  margin-left: 15px;
-  font-weight: bold;
-  font-size: 8px;
-  -webkit-transition: -webkit-transform ease-out .2s;
-  -webkit-transition: transform ease-out .2s;
-  transition: transform ease-out .2s;
-  will-transform: transform;
-  margin-top: 2px;
-  color: #6B7785;
-  display: inline-block;
-}
-
-.emotion-2 {
-  padding: 15px 20px;
-  font-size: 12px;
-  color: #101721;
-  line-height: 9px;
-}
-
 .emotion-9 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -569,8 +540,37 @@ exports[`TimePicker { selectedHour: 12, selectedMinute: 15 } 1`] = `
   background: #E0E0E0;
 }
 
+.emotion-3 {
+  position: relative;
+}
+
+.emotion-2 {
+  padding: 15px 20px;
+  font-size: 12px;
+  color: #101721;
+  line-height: 9px;
+}
+
 .emotion-0 {
   margin-right: 15px;
+}
+
+.emotion-1 {
+  margin-left: 15px;
+  font-weight: bold;
+  font-size: 8px;
+  -webkit-transition: -webkit-transform ease-out .2s;
+  -webkit-transition: transform ease-out .2s;
+  transition: transform ease-out .2s;
+  will-transform: transform;
+  margin-top: 2px;
+  color: #6B7785;
+  display: inline-block;
+}
+
+.emotion-4 {
+  color: #6B7785;
+  line-height: 40px;
 }
 
 <div
@@ -651,35 +651,6 @@ exports[`TimePicker { selectedHour: 12, selectedMinute: 15 } 1`] = `
 `;
 
 exports[`TimePicker { selectedHour: 12, selectedMinute: undefined } 1`] = `
-.emotion-3 {
-  position: relative;
-}
-
-.emotion-4 {
-  color: #6B7785;
-  line-height: 40px;
-}
-
-.emotion-1 {
-  margin-left: 15px;
-  font-weight: bold;
-  font-size: 8px;
-  -webkit-transition: -webkit-transform ease-out .2s;
-  -webkit-transition: transform ease-out .2s;
-  transition: transform ease-out .2s;
-  will-transform: transform;
-  margin-top: 2px;
-  color: #6B7785;
-  display: inline-block;
-}
-
-.emotion-2 {
-  padding: 15px 20px;
-  font-size: 12px;
-  color: #101721;
-  line-height: 9px;
-}
-
 .emotion-9 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -699,8 +670,37 @@ exports[`TimePicker { selectedHour: 12, selectedMinute: undefined } 1`] = `
   background: #E0E0E0;
 }
 
+.emotion-3 {
+  position: relative;
+}
+
+.emotion-2 {
+  padding: 15px 20px;
+  font-size: 12px;
+  color: #101721;
+  line-height: 9px;
+}
+
 .emotion-0 {
   margin-right: 15px;
+}
+
+.emotion-1 {
+  margin-left: 15px;
+  font-weight: bold;
+  font-size: 8px;
+  -webkit-transition: -webkit-transform ease-out .2s;
+  -webkit-transition: transform ease-out .2s;
+  transition: transform ease-out .2s;
+  will-transform: transform;
+  margin-top: 2px;
+  color: #6B7785;
+  display: inline-block;
+}
+
+.emotion-4 {
+  color: #6B7785;
+  line-height: 40px;
 }
 
 <div
@@ -781,35 +781,6 @@ exports[`TimePicker { selectedHour: 12, selectedMinute: undefined } 1`] = `
 `;
 
 exports[`TimePicker { selectedHour: undefined, selectedMinute: 0 } 1`] = `
-.emotion-3 {
-  position: relative;
-}
-
-.emotion-4 {
-  color: #6B7785;
-  line-height: 40px;
-}
-
-.emotion-1 {
-  margin-left: 15px;
-  font-weight: bold;
-  font-size: 8px;
-  -webkit-transition: -webkit-transform ease-out .2s;
-  -webkit-transition: transform ease-out .2s;
-  transition: transform ease-out .2s;
-  will-transform: transform;
-  margin-top: 2px;
-  color: #6B7785;
-  display: inline-block;
-}
-
-.emotion-2 {
-  padding: 15px 20px;
-  font-size: 12px;
-  color: #101721;
-  line-height: 9px;
-}
-
 .emotion-9 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -829,8 +800,37 @@ exports[`TimePicker { selectedHour: undefined, selectedMinute: 0 } 1`] = `
   background: #E0E0E0;
 }
 
+.emotion-3 {
+  position: relative;
+}
+
+.emotion-2 {
+  padding: 15px 20px;
+  font-size: 12px;
+  color: #101721;
+  line-height: 9px;
+}
+
 .emotion-0 {
   margin-right: 15px;
+}
+
+.emotion-1 {
+  margin-left: 15px;
+  font-weight: bold;
+  font-size: 8px;
+  -webkit-transition: -webkit-transform ease-out .2s;
+  -webkit-transition: transform ease-out .2s;
+  transition: transform ease-out .2s;
+  will-transform: transform;
+  margin-top: 2px;
+  color: #6B7785;
+  display: inline-block;
+}
+
+.emotion-4 {
+  color: #6B7785;
+  line-height: 40px;
 }
 
 <div
@@ -911,35 +911,6 @@ exports[`TimePicker { selectedHour: undefined, selectedMinute: 0 } 1`] = `
 `;
 
 exports[`TimePicker { selectedHour: undefined, selectedMinute: 15 } 1`] = `
-.emotion-3 {
-  position: relative;
-}
-
-.emotion-4 {
-  color: #6B7785;
-  line-height: 40px;
-}
-
-.emotion-1 {
-  margin-left: 15px;
-  font-weight: bold;
-  font-size: 8px;
-  -webkit-transition: -webkit-transform ease-out .2s;
-  -webkit-transition: transform ease-out .2s;
-  transition: transform ease-out .2s;
-  will-transform: transform;
-  margin-top: 2px;
-  color: #6B7785;
-  display: inline-block;
-}
-
-.emotion-2 {
-  padding: 15px 20px;
-  font-size: 12px;
-  color: #101721;
-  line-height: 9px;
-}
-
 .emotion-9 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -959,8 +930,37 @@ exports[`TimePicker { selectedHour: undefined, selectedMinute: 15 } 1`] = `
   background: #E0E0E0;
 }
 
+.emotion-3 {
+  position: relative;
+}
+
+.emotion-2 {
+  padding: 15px 20px;
+  font-size: 12px;
+  color: #101721;
+  line-height: 9px;
+}
+
 .emotion-0 {
   margin-right: 15px;
+}
+
+.emotion-1 {
+  margin-left: 15px;
+  font-weight: bold;
+  font-size: 8px;
+  -webkit-transition: -webkit-transform ease-out .2s;
+  -webkit-transition: transform ease-out .2s;
+  transition: transform ease-out .2s;
+  will-transform: transform;
+  margin-top: 2px;
+  color: #6B7785;
+  display: inline-block;
+}
+
+.emotion-4 {
+  color: #6B7785;
+  line-height: 40px;
 }
 
 <div
@@ -1045,6 +1045,35 @@ exports[`TimePicker { selectedHour: undefined, selectedMinute: undefined } 1`] =
   position: relative;
 }
 
+.emotion-2 {
+  padding: 15px 20px;
+  font-size: 12px;
+  color: #101721;
+  line-height: 9px;
+}
+
+.emotion-0 {
+  margin-right: 15px;
+}
+
+.emotion-1 {
+  margin-left: 15px;
+  font-weight: bold;
+  font-size: 8px;
+  -webkit-transition: -webkit-transform ease-out .2s;
+  -webkit-transition: transform ease-out .2s;
+  transition: transform ease-out .2s;
+  will-transform: transform;
+  margin-top: 2px;
+  color: #6B7785;
+  display: inline-block;
+}
+
+.emotion-4 {
+  color: #6B7785;
+  line-height: 40px;
+}
+
 .emotion-9 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1061,35 +1090,6 @@ exports[`TimePicker { selectedHour: undefined, selectedMinute: undefined } 1`] =
 
 .emotion-9:not([disabled]):hover {
   background: #E0E0E0;
-}
-
-.emotion-4 {
-  color: #6B7785;
-  line-height: 40px;
-}
-
-.emotion-1 {
-  margin-left: 15px;
-  font-weight: bold;
-  font-size: 8px;
-  -webkit-transition: -webkit-transform ease-out .2s;
-  -webkit-transition: transform ease-out .2s;
-  transition: transform ease-out .2s;
-  will-transform: transform;
-  margin-top: 2px;
-  color: #6B7785;
-  display: inline-block;
-}
-
-.emotion-2 {
-  padding: 15px 20px;
-  font-size: 12px;
-  color: #101721;
-  line-height: 9px;
-}
-
-.emotion-0 {
-  margin-right: 15px;
 }
 
 <div

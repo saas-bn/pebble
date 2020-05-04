@@ -1,7 +1,9 @@
+import { Interpolation } from "./emotionCustom";
+
 export interface SwitchProps {
   initialValue?: boolean;
   onChange?: (value: boolean) => void;
-  className?: string;
+  styles?: Interpolation;
   label?: string;
   disabled?: boolean;
 }

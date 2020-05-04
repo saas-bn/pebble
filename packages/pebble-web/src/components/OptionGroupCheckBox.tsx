@@ -48,7 +48,7 @@ export default class OptionGroupCheckBox<
       ...this.props.advancedOptionsProps
     };
     return (
-      <div className={styles.optionGroupCheckBoxWrap}>
+      <div css={styles.optionGroupCheckBoxWrap}>
         <OptionGroup<OptionType>
           {...rest}
           advancedOptionsProps={advancedOptionsProps}
@@ -58,7 +58,7 @@ export default class OptionGroupCheckBox<
         />
 
         {(onApply || onClear) && (
-          <div className={styles.optionGroupCheckBoxButtonWrap}>
+          <div css={styles.optionGroupCheckBoxButtonWrap}>
             {onClear && (
               <Button type="secondary" onClick={onClear}>
                 Clear

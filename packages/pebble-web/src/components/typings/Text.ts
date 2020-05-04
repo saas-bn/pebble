@@ -1,7 +1,8 @@
 import { TypographyStyle } from "../../theme/typings/typography";
+import { Interpolation } from "./emotionCustom";
 
 export interface TextProps {
   color?: string;
-  className?: string;
+  styles?: Interpolation;
   typography?: TypographyStyle;
 }

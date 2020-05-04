@@ -1,11 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Checkbox snapshot 1`] = `
-.emotion-0 {
-  margin-right: 10px;
-  font-size: 16px;
-}
-
 .emotion-1 {
   cursor: pointer;
   display: -webkit-box;
@@ -28,7 +23,12 @@ exports[`Checkbox snapshot 1`] = `
   cursor: not-allowed;
 }
 
-.emotion-1[data-disabled='true'] .emotion-0 {
+.emotion-0 {
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+[data-disabled='true'] .emotion-0 {
   color: #E0E0E0;
 }
 
@@ -40,7 +40,7 @@ exports[`Checkbox snapshot 1`] = `
   tabIndex={0}
 >
   <i
-    className="emotion-0 pi pi-checkbox-selected"
+    className="pi pi-checkbox-selected emotion-0"
     style={
       Object {
         "color": "#6161FF",

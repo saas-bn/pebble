@@ -1,6 +1,8 @@
+import { Interpolation } from "./emotionCustom";
+
 export interface ModalProps {
   visible: boolean;
-  backDropClassName?: string;
-  modalClassName?: string;
+  backDropStyles?: Interpolation;
+  modalStyles?: Interpolation;
   children: React.ReactNode;
 }

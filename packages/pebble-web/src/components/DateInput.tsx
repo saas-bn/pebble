@@ -86,7 +86,7 @@ export default class DateInput extends React.PureComponent<
 
     return (
       <DropDown
-        dropDownClassName={dropDownClassName}
+        dropDownStyles={dropDownClassName}
         labelComponent={({ toggleDropdown }) => (
           <Rifm
             value={this.state.stringInput}
@@ -107,19 +107,19 @@ export default class DateInput extends React.PureComponent<
                   ...(inputProps && inputProps.inputProps),
                   onChange
                 }}
-                className={inputStyle}
+                styles={inputStyle}
               />
             )}
           </Rifm>
         )}
-        className={wrapperStyle}
+        styles={wrapperStyle}
         placement="bottom-start"
         modifiers={modifiers}
       >
         {({ toggle }) => (
           <Calendar
             hideShadow
-            className={dateClass}
+            wrapperStyles={dateClass}
             selected={propsValue ? new Date(propsValue) : undefined}
             {...calendarProps}
             range={false}

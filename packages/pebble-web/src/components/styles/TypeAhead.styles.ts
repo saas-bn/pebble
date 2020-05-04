@@ -1,4 +1,4 @@
-import { css } from "emotion";
+import css from "@emotion/css";
 import { constants } from "../../theme";
 
 export const wrapper = css({

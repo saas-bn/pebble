@@ -8,14 +8,17 @@ module.exports = {
         }
       }
     ],
-    "@babel/preset-typescript"
+    [
+      "@emotion/babel-preset-css-prop",
+      {
+        useBuiltIns: true
+      }
+    ]
   ],
   plugins: [
     "@babel/plugin-transform-runtime",
     ["@babel/plugin-proposal-class-properties", { loose: false }],
     "@babel/plugin-syntax-jsx",
-    ["@babel/plugin-transform-react-jsx", { useBuiltIns: true }],
-    "emotion",
     "date-fns"
   ],
   env: {

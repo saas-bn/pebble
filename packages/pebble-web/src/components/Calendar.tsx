@@ -1,7 +1,6 @@
 import * as React from "react";
 import { CalendarTileProperties } from "react-calendar/dist/entry.nostyle";
 import RCalendar from "react-calendar/dist/Calendar";
-import { css, cx } from "emotion";
 import { CalendarProps, CalendarState } from "./typings/Calendar";
 import {
   buttonsWrapper,
@@ -65,14 +64,10 @@ class Calendar extends React.PureComponent<CalendarProps, CalendarState> {
     );
 
     return dot ? (
-      <div className={dotWrapper}>
+      <div css={dotWrapper}>
         {dot.colors &&
           dot.colors.map((color, i) => (
-            <span
-              key={i}
-              className={dotStyle}
-              style={{ backgroundColor: color }}
-            />
+            <span key={i} css={dotStyle} style={{ backgroundColor: color }} />
           ))}
       </div>
     ) : null;
@@ -120,7 +115,8 @@ class Calendar extends React.PureComponent<CalendarProps, CalendarState> {
       range,
       selected,
       hideShadow,
-      className,
+      wrapperStyles,
+      wrapperClassName,
       onApply,
       onClear,
       ...rest
@@ -128,13 +124,12 @@ class Calendar extends React.PureComponent<CalendarProps, CalendarState> {
 
     return (
       <div
-        className={cx(
+        className={wrapperClassName}
+        css={[
           wrapperStyle,
-          {
-            [css({ boxShadow: "none" })]: !!hideShadow
-          },
-          className
-        )}
+          !!hideShadow && { boxShadow: "none" },
+          wrapperStyles
+        ]}
       >
         <RCalendar
           {...rest}
@@ -159,7 +154,7 @@ class Calendar extends React.PureComponent<CalendarProps, CalendarState> {
         />
 
         {(onClear || onApply) && (
-          <div className={buttonsWrapper}>
+          <div css={buttonsWrapper}>
             {onClear && (
               <Button onClick={this.onClear} type="secondary">
                 Clear

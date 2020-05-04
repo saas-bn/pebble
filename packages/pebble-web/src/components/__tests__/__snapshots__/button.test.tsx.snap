@@ -1915,43 +1915,6 @@ exports[`Button Combos test {"disabled":false,"type":"primary","showRipple":fals
   }
 }
 
-.emotion-0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-align-content: initial;
-  -ms-flex-line-pack: initial;
-  align-content: initial;
-  width: 70px;
-}
-
-.emotion-0 > div {
-  width: 18px;
-  height: 18px;
-  border-radius: 100%;
-  display: inline-block;
-  -webkit-animation: animation-0 1.4s infinite ease-in-out both;
-  animation: animation-0 1.4s infinite ease-in-out both;
-}
-
-.emotion-0 > div:first-of-type {
-  -webkit-animation-delay: -0.32s;
-  animation-delay: -0.32s;
-}
-
-.emotion-0 > div:nth-of-type(2n) {
-  -webkit-animation-delay: -0.16s;
-  animation-delay: -0.16s;
-}
-
 .emotion-1 {
   line-height: 23px;
   height: 40px;
@@ -2007,6 +1970,43 @@ exports[`Button Combos test {"disabled":false,"type":"primary","showRipple":fals
   color: #ffffff;
   background-color: #C0C0FF;
   border-color: #C0C0FF;
+}
+
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-content: initial;
+  -ms-flex-line-pack: initial;
+  align-content: initial;
+  width: 70px;
+}
+
+.emotion-0 > div {
+  width: 18px;
+  height: 18px;
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: animation-0 1.4s infinite ease-in-out both;
+  animation: animation-0 1.4s infinite ease-in-out both;
+}
+
+.emotion-0 > div:first-of-type {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+.emotion-0 > div:nth-of-type(2n) {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
 }
 
 <button
@@ -2066,43 +2066,6 @@ exports[`Button Combos test {"disabled":false,"type":"primary","showRipple":fals
   }
 }
 
-.emotion-0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-align-content: initial;
-  -ms-flex-line-pack: initial;
-  align-content: initial;
-  width: 70px;
-}
-
-.emotion-0 > div {
-  width: 18px;
-  height: 18px;
-  border-radius: 100%;
-  display: inline-block;
-  -webkit-animation: animation-0 1.4s infinite ease-in-out both;
-  animation: animation-0 1.4s infinite ease-in-out both;
-}
-
-.emotion-0 > div:first-of-type {
-  -webkit-animation-delay: -0.32s;
-  animation-delay: -0.32s;
-}
-
-.emotion-0 > div:nth-of-type(2n) {
-  -webkit-animation-delay: -0.16s;
-  animation-delay: -0.16s;
-}
-
 .emotion-1 {
   line-height: 23px;
   height: 40px;
@@ -2158,6 +2121,43 @@ exports[`Button Combos test {"disabled":false,"type":"primary","showRipple":fals
   color: #ffffff;
   background-color: #C0C0FF;
   border-color: #C0C0FF;
+}
+
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-content: initial;
+  -ms-flex-line-pack: initial;
+  align-content: initial;
+  width: 70px;
+}
+
+.emotion-0 > div {
+  width: 18px;
+  height: 18px;
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: animation-0 1.4s infinite ease-in-out both;
+  animation: animation-0 1.4s infinite ease-in-out both;
+}
+
+.emotion-0 > div:first-of-type {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+.emotion-0 > div:nth-of-type(2n) {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
 }
 
 <button
@@ -2397,43 +2397,6 @@ exports[`Button Combos test {"disabled":false,"type":"primary","showRipple":true
   }
 }
 
-.emotion-0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-align-content: initial;
-  -ms-flex-line-pack: initial;
-  align-content: initial;
-  width: 70px;
-}
-
-.emotion-0 > div {
-  width: 18px;
-  height: 18px;
-  border-radius: 100%;
-  display: inline-block;
-  -webkit-animation: animation-0 1.4s infinite ease-in-out both;
-  animation: animation-0 1.4s infinite ease-in-out both;
-}
-
-.emotion-0 > div:first-of-type {
-  -webkit-animation-delay: -0.32s;
-  animation-delay: -0.32s;
-}
-
-.emotion-0 > div:nth-of-type(2n) {
-  -webkit-animation-delay: -0.16s;
-  animation-delay: -0.16s;
-}
-
 .emotion-1 {
   line-height: 23px;
   height: 40px;
@@ -2489,6 +2452,43 @@ exports[`Button Combos test {"disabled":false,"type":"primary","showRipple":true
   color: #ffffff;
   background-color: #C0C0FF;
   border-color: #C0C0FF;
+}
+
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-content: initial;
+  -ms-flex-line-pack: initial;
+  align-content: initial;
+  width: 70px;
+}
+
+.emotion-0 > div {
+  width: 18px;
+  height: 18px;
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: animation-0 1.4s infinite ease-in-out both;
+  animation: animation-0 1.4s infinite ease-in-out both;
+}
+
+.emotion-0 > div:first-of-type {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+.emotion-0 > div:nth-of-type(2n) {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
 }
 
 <button
@@ -2548,43 +2548,6 @@ exports[`Button Combos test {"disabled":false,"type":"primary","showRipple":true
   }
 }
 
-.emotion-0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-align-content: initial;
-  -ms-flex-line-pack: initial;
-  align-content: initial;
-  width: 70px;
-}
-
-.emotion-0 > div {
-  width: 18px;
-  height: 18px;
-  border-radius: 100%;
-  display: inline-block;
-  -webkit-animation: animation-0 1.4s infinite ease-in-out both;
-  animation: animation-0 1.4s infinite ease-in-out both;
-}
-
-.emotion-0 > div:first-of-type {
-  -webkit-animation-delay: -0.32s;
-  animation-delay: -0.32s;
-}
-
-.emotion-0 > div:nth-of-type(2n) {
-  -webkit-animation-delay: -0.16s;
-  animation-delay: -0.16s;
-}
-
 .emotion-1 {
   line-height: 23px;
   height: 40px;
@@ -2640,6 +2603,43 @@ exports[`Button Combos test {"disabled":false,"type":"primary","showRipple":true
   color: #ffffff;
   background-color: #C0C0FF;
   border-color: #C0C0FF;
+}
+
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-content: initial;
+  -ms-flex-line-pack: initial;
+  align-content: initial;
+  width: 70px;
+}
+
+.emotion-0 > div {
+  width: 18px;
+  height: 18px;
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: animation-0 1.4s infinite ease-in-out both;
+  animation: animation-0 1.4s infinite ease-in-out both;
+}
+
+.emotion-0 > div:first-of-type {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+.emotion-0 > div:nth-of-type(2n) {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
 }
 
 <button
@@ -6409,43 +6409,6 @@ exports[`Button Combos test {"disabled":true,"type":"primary","showRipple":false
   }
 }
 
-.emotion-0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-align-content: initial;
-  -ms-flex-line-pack: initial;
-  align-content: initial;
-  width: 70px;
-}
-
-.emotion-0 > div {
-  width: 18px;
-  height: 18px;
-  border-radius: 100%;
-  display: inline-block;
-  -webkit-animation: animation-0 1.4s infinite ease-in-out both;
-  animation: animation-0 1.4s infinite ease-in-out both;
-}
-
-.emotion-0 > div:first-of-type {
-  -webkit-animation-delay: -0.32s;
-  animation-delay: -0.32s;
-}
-
-.emotion-0 > div:nth-of-type(2n) {
-  -webkit-animation-delay: -0.16s;
-  animation-delay: -0.16s;
-}
-
 .emotion-1 {
   line-height: 23px;
   height: 40px;
@@ -6501,6 +6464,43 @@ exports[`Button Combos test {"disabled":true,"type":"primary","showRipple":false
   color: #ffffff;
   background-color: #C0C0FF;
   border-color: #C0C0FF;
+}
+
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-content: initial;
+  -ms-flex-line-pack: initial;
+  align-content: initial;
+  width: 70px;
+}
+
+.emotion-0 > div {
+  width: 18px;
+  height: 18px;
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: animation-0 1.4s infinite ease-in-out both;
+  animation: animation-0 1.4s infinite ease-in-out both;
+}
+
+.emotion-0 > div:first-of-type {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+.emotion-0 > div:nth-of-type(2n) {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
 }
 
 <button
@@ -6560,43 +6560,6 @@ exports[`Button Combos test {"disabled":true,"type":"primary","showRipple":false
   }
 }
 
-.emotion-0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-align-content: initial;
-  -ms-flex-line-pack: initial;
-  align-content: initial;
-  width: 70px;
-}
-
-.emotion-0 > div {
-  width: 18px;
-  height: 18px;
-  border-radius: 100%;
-  display: inline-block;
-  -webkit-animation: animation-0 1.4s infinite ease-in-out both;
-  animation: animation-0 1.4s infinite ease-in-out both;
-}
-
-.emotion-0 > div:first-of-type {
-  -webkit-animation-delay: -0.32s;
-  animation-delay: -0.32s;
-}
-
-.emotion-0 > div:nth-of-type(2n) {
-  -webkit-animation-delay: -0.16s;
-  animation-delay: -0.16s;
-}
-
 .emotion-1 {
   line-height: 23px;
   height: 40px;
@@ -6652,6 +6615,43 @@ exports[`Button Combos test {"disabled":true,"type":"primary","showRipple":false
   color: #ffffff;
   background-color: #C0C0FF;
   border-color: #C0C0FF;
+}
+
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-content: initial;
+  -ms-flex-line-pack: initial;
+  align-content: initial;
+  width: 70px;
+}
+
+.emotion-0 > div {
+  width: 18px;
+  height: 18px;
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: animation-0 1.4s infinite ease-in-out both;
+  animation: animation-0 1.4s infinite ease-in-out both;
+}
+
+.emotion-0 > div:first-of-type {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+.emotion-0 > div:nth-of-type(2n) {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
 }
 
 <button
@@ -6853,43 +6853,6 @@ exports[`Button Combos test {"disabled":true,"type":"primary","showRipple":true,
   }
 }
 
-.emotion-0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-align-content: initial;
-  -ms-flex-line-pack: initial;
-  align-content: initial;
-  width: 70px;
-}
-
-.emotion-0 > div {
-  width: 18px;
-  height: 18px;
-  border-radius: 100%;
-  display: inline-block;
-  -webkit-animation: animation-0 1.4s infinite ease-in-out both;
-  animation: animation-0 1.4s infinite ease-in-out both;
-}
-
-.emotion-0 > div:first-of-type {
-  -webkit-animation-delay: -0.32s;
-  animation-delay: -0.32s;
-}
-
-.emotion-0 > div:nth-of-type(2n) {
-  -webkit-animation-delay: -0.16s;
-  animation-delay: -0.16s;
-}
-
 .emotion-1 {
   line-height: 23px;
   height: 40px;
@@ -6945,6 +6908,43 @@ exports[`Button Combos test {"disabled":true,"type":"primary","showRipple":true,
   color: #ffffff;
   background-color: #C0C0FF;
   border-color: #C0C0FF;
+}
+
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-content: initial;
+  -ms-flex-line-pack: initial;
+  align-content: initial;
+  width: 70px;
+}
+
+.emotion-0 > div {
+  width: 18px;
+  height: 18px;
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: animation-0 1.4s infinite ease-in-out both;
+  animation: animation-0 1.4s infinite ease-in-out both;
+}
+
+.emotion-0 > div:first-of-type {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+.emotion-0 > div:nth-of-type(2n) {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
 }
 
 <button
@@ -7004,43 +7004,6 @@ exports[`Button Combos test {"disabled":true,"type":"primary","showRipple":true,
   }
 }
 
-.emotion-0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-align-content: initial;
-  -ms-flex-line-pack: initial;
-  align-content: initial;
-  width: 70px;
-}
-
-.emotion-0 > div {
-  width: 18px;
-  height: 18px;
-  border-radius: 100%;
-  display: inline-block;
-  -webkit-animation: animation-0 1.4s infinite ease-in-out both;
-  animation: animation-0 1.4s infinite ease-in-out both;
-}
-
-.emotion-0 > div:first-of-type {
-  -webkit-animation-delay: -0.32s;
-  animation-delay: -0.32s;
-}
-
-.emotion-0 > div:nth-of-type(2n) {
-  -webkit-animation-delay: -0.16s;
-  animation-delay: -0.16s;
-}
-
 .emotion-1 {
   line-height: 23px;
   height: 40px;
@@ -7096,6 +7059,43 @@ exports[`Button Combos test {"disabled":true,"type":"primary","showRipple":true,
   color: #ffffff;
   background-color: #C0C0FF;
   border-color: #C0C0FF;
+}
+
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-content: initial;
+  -ms-flex-line-pack: initial;
+  align-content: initial;
+  width: 70px;
+}
+
+.emotion-0 > div {
+  width: 18px;
+  height: 18px;
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: animation-0 1.4s infinite ease-in-out both;
+  animation: animation-0 1.4s infinite ease-in-out both;
+}
+
+.emotion-0 > div:first-of-type {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+.emotion-0 > div:nth-of-type(2n) {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
 }
 
 <button

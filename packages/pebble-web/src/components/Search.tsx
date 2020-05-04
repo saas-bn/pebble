@@ -1,5 +1,5 @@
 import * as React from "react";
-import { cx } from "emotion";
+
 import { SearchProps } from "./typings/Search";
 import {
   searchStyle,
@@ -22,22 +22,24 @@ class Search extends React.PureComponent<SearchProps> {
       onChange,
       placeholder,
       showSearchIcon,
-      className,
+      styles,
       clearable,
       value
     } = this.props;
 
-    const wrapperClassName = cx(searchWrapperStyle, {
-      __pebble__search__small: type === "small",
-      __pebble__search__large: type === "large",
-      __pebble__search__table: type === "table"
-    });
+    const wrapperClassName = [
+      type === "small" && "__pebble__search__small",
+      type === "large" && "__pebble__search__large",
+      type === "table" && "__pebble__search__table"
+    ]
+      .filter(Boolean)
+      .join(" ");
 
     return (
-      <div className={cx(wrapperClassName, className)}>
+      <div className={wrapperClassName} css={[searchWrapperStyle, styles]}>
         {type !== "large" && showSearchIcon && <i className="pi pi-search" />}
         <input
-          className={searchStyle}
+          css={searchStyle}
           type="text"
           aria-label={placeholder}
           placeholder={placeholder}
@@ -50,9 +52,8 @@ class Search extends React.PureComponent<SearchProps> {
         />
         {clearable && (
           <div
-            className={cx(clearContainer, {
-              __display: !!value && !!value.length
-            })}
+            className={(!!value && !!value.length && "__display") || ""}
+            css={clearContainer}
             onClick={() => {
               if (this.searchInputRef.current) {
                 this.searchInputRef.current.value = "";
